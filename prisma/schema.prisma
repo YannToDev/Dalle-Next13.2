@@ -12,5 +12,5 @@ model Post {
   title    String
   imageUrl String
   tag      String
-  createdt DateTime
+  createdt DateTime @updatedAt
 }
