@@ -2,7 +2,7 @@
 declare global {
     namespace NodeJS {
         interface ProcessEnv {
-            OPEN_API_Key : string;
+            OPENAI_API_KEY: string;
             NEXT_PUBLIC_URL : string;
         }
     }
